@@ -30,7 +30,8 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
             Assistant
           </p>
 
-          <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
+          {/* Updated container with green background */}
+          <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row bg-green-500 p-4 rounded-md">
             <TalkButton />
           </div>
         </Column>
@@ -48,7 +49,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
                   className="app__outlined_btn !rounded-full !p-2 lg:!p-3 !aspect-square !border-[var(--textColor)]"
                   aria-label={`${link.name}`}
                 >
-                  <span className="text-base/6 text-[var(--whiteColor)]">
+                  <span className="text-base/6 text-[var(--blackColor)]">
                     {typeof link.icon === "string" ? null : (
                       <FontAwesomeIcon icon={link.icon} />
                     )}
