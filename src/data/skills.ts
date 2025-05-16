@@ -2,162 +2,137 @@ import { ISkillListItem, SkillLevel } from "@/types";
 
 const skills: ISkillListItem[] = [
   {
-    title: "Programming Languages",
+    title: "Effective Communication",
     items: [
       {
-        title: "JavaScript",
+        title: "Email & Business Writing",
         level: SkillLevel.Expert,
-        icon: "/skills/javascript.svg",
+        icon: "/images/email-writing.png",
       },
       {
-        title: "TypeScript",
+        title: "Presentation Skills",
+        level: SkillLevel.Expert,
+        icon: "/images/presentation.png",
+      },
+      {
+        title: "Conflict Resolution",
         level: SkillLevel.Intermediate,
-        icon: "/skills/typescript.svg",
-      },
-      {
-        title: "Dart",
-        level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/images/conflict-resolution.png",
       },
     ],
   },
   {
-    title: "Frontend Development",
+    title: "Project Planning & Management",
     items: [
       {
-        title: "Next.js",
+        title: "Microsoft Excel",
         level: SkillLevel.Expert,
-        icon: "/skills/nextjs.png",
+        icon: "/images/excel.png",
       },
       {
-        title: "React.js",
+        title: "Trello / Asana",
         level: SkillLevel.Expert,
-        icon: "/skills/react.svg",
+        icon: "/images/project-management.png",
       },
       {
-        title: "HTML",
+        title: "Google Workspace",
         level: SkillLevel.Expert,
-        icon: "/skills/html.svg",
-      },
-      {
-        title: "CSS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/css.svg",
-      },
-      {
-        title: "SASS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/sass.svg",
-      },
-      {
-        title: "Redux Toolkit",
-        level: SkillLevel.Expert,
-        icon: "/skills/redux.svg",
+        icon: "/images/google-workspace.png",
       },
     ],
   },
   {
-    title: "Backend Development",
+    title: "Personal Support & Empathy",
     items: [
       {
-        title: "Node.js",
+        title: "Emotional Intelligence",
         level: SkillLevel.Expert,
-        icon: "/skills/nodejs.svg",
+        icon: "/images/emotional-intelligence.jpeg",
       },
       {
-        title: "Express.js",
+        title: "Confidentiality Handling",
         level: SkillLevel.Expert,
-        icon: "/skills/express.svg",
+        icon: "/images/confidentiality.png",
       },
       {
-        title: "Socket.io",
+        title: "Client Relationship Management",
         level: SkillLevel.Intermediate,
-        icon: "/skills/socket-io.png",
-      },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Beginner,
-      //   icon: "/skills/nestjs.svg",
-      // },
-    ],
-  },
-  {
-    title: "Mobile App Development",
-    items: [
-      {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
-      },
-      {
-        title: "GetX",
-        level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
+        icon: "/images/client-support.png",
       },
     ],
   },
   {
-    title: "Database Management",
+    title: "Punctuality & Reliability",
     items: [
       {
-        title: "MongoDB",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/mongodb.svg",
+        title: "Time Management",
+        level: SkillLevel.Expert,
+        icon: "/images/time-management.png",
       },
       {
-        title: "PostgreSQL",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/postgresql.svg",
+        title: "Task Prioritization",
+        level: SkillLevel.Expert,
+        icon: "/images/prioritization.png",
+      },
+    ],
+  },
+  {
+    title: "Scheduling & Organization",
+    items: [
+      {
+        title: "Calendar Management",
+        level: SkillLevel.Expert,
+        icon: "/images/calendar-management.png",
       },
       {
-        title: "MySQL",
+        title: "Meeting Coordination",
+        level: SkillLevel.Expert,
+        icon: "/images/meeting.png",
+      },
+      {
+        title: "Travel Planning",
+        level: SkillLevel.Intermediate,
+        icon: "/images/travel.png",
+      },
+    ],
+  },
+  {
+    title: "Digital Tools & Platforms",
+    items: [
+      {
+        title: "Microsoft Office Suite",
+        level: SkillLevel.Expert,
+        icon: "/images/microsoft-office.png",
+      },
+      {
+        title: "Slack / Zoom",
+        level: SkillLevel.Intermediate,
+        icon: "/images/video-conferencing.png",
+      },
+      {
+        title: "Dropbox / Google Drive",
+        level: SkillLevel.Expert,
+        icon: "/images/cloud-storage.png",
+      },
+    ],
+  },
+  {
+    title: "Additional Technical Skills",
+    items: [
+      {
+        title: "CRM Systems (e.g., HubSpot)",
+        level: SkillLevel.Intermediate,
+        icon: "/images/crm.png",
+      },
+      {
+        title: "Basic HTML (for content updates)",
         level: SkillLevel.Beginner,
-        icon: "/skills/mysql.svg",
+        icon: "/images/html.png",
       },
     ],
   },
   {
-    title: "DevOps/VCS",
-    items: [
-      {
-        title: "Docker",
-        level: SkillLevel.Beginner,
-        icon: "/skills/docker.png",
-      },
-      {
-        title: "AWS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/aws.svg",
-      },
-      {
-        title: "Git",
-        level: SkillLevel.Expert,
-        icon: "/skills/git.svg",
-      },
-      {
-        title: "GitHub",
-        level: SkillLevel.Expert,
-        icon: "/skills/github.svg",
-      },
-    ],
-  },
-  {
-    title: "Miscellaneous",
-    items: [
-      {
-        title: "Firebase",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/firebase.svg",
-      },
-      {
-        title: "Ubuntu",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/ubuntu.png",
-      },
-    ],
-  },
-  {
-    title: "Nontechnical Skills",
+    title: "Soft Skills",
     items: [
       {
         title: "Problem Solving",
@@ -165,12 +140,12 @@ const skills: ISkillListItem[] = [
         icon: "/images/logical-thinking.png",
       },
       {
-        title: "Collaboration",
+        title: "Team Collaboration",
         level: SkillLevel.Expert,
         icon: "/images/collaboration.png",
       },
       {
-        title: "Analytical Skills",
+        title: "Analytical Thinking",
         level: SkillLevel.Expert,
         icon: "/images/analytical-skills.png",
       },

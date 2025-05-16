@@ -3,89 +3,46 @@ import { IServiceItem } from "@/types";
 const services: IServiceItem[] = [
   {
     id: 1,
-    title: "Mobile App Development",
+    title: "Executive Support",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/dart.svg",
-      "/skills/flutter.svg",
-      "/skills/getx.png",
-      "/skills/firebase.svg",
+      "/skills/executive-support.png",
+      "/skills/calendar-management.png",
+      "/skills/strategic-planning.png",
+      "/skills/communication.png",
+      "/skills/leadership.png",
     ],
     shortDescription:
-      "I create engaging mobile applications for your audience.",
+      "I provide high-level support to executives to optimize their productivity and focus.",
     description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
+      "I deliver proactive executive support through calendar and inbox management, strategic planning assistance, travel coordination, and preparation of reports and presentations. My goal is to empower executives to focus on critical decisions while I handle the details that ensure smooth operations.",
   },
   {
     id: 2,
-    title: "Web Development",
+    title: "Personal Assistant",
     icons: [
-      "/skills/redux.svg",
-      "/skills/react.svg",
-      "/skills/nextjs.png",
-      "/skills/html.svg",
-      "/skills/css.svg",
+      "/skills/task-management.png",
+      "/skills/scheduling.jpg",
+      "/skills/confidentiality.png",
+      "/skills/multitasking.png",
+      "/skills/communication-skills.png",
     ],
-    shortDescription: "I build visually stunning and user-friendly websites.",
+    shortDescription: "I manage daily tasks and logistics to support your personal and professional life.",
     description:
-      "I deliver stunning, user-friendly websites to establish your online presence. From simple sites to complex e-commerce platforms, I provide tailored solutions using the latest frameworks and technologies for a seamless, responsive, and SEO-friendly browsing experience. Enhance your online identity with quality.",
+      "As a personal assistant, I handle a wide range of responsibilities including scheduling, travel arrangements, correspondence, and personal errands. With strong attention to detail and discretion, I ensure your time is optimized and your personal and professional responsibilities are well-coordinated.",
   },
   {
     id: 3,
-    title: "Backend Development",
+    title: "Administrative Support",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/docker.png",
-      "/skills/nodejs.svg",
-      "/skills/express.svg",
-      "/skills/aws.svg",
+      "/skills/document-management.png",
+      "/skills/data-entry.png",
+      "/skills/organization.png",
+      "/skills/customer-service.png",
+      "/skills/reporting.png",
     ],
-    shortDescription: "I create robust and scalable backend infrastructures.",
+    shortDescription: "I keep your operations running efficiently with reliable administrative support.",
     description:
-      "I enhance digital applications with robust, scalable backend infrastructures. I develop efficient database structures, APIs, and configure servers for optimal performance, security, and scalability, ensuring your applications handle high traffic and complex data management seamlessly. Rely on strong backend solutions.",
-  },
-  {
-    id: 4,
-    title: "Product Strategy",
-    icons: [
-      "/skills/git.svg",
-      "/images/collaboration.png",
-      "/images/logical-thinking.png",
-      "/images/analytical-skills.png",
-      "/skills/ubuntu.png",
-    ],
-    shortDescription:
-      "I define goals, target audiences, and roadmap for success.",
-    description:
-      "I collaborate to define clear goals, target audiences, and a success roadmap. My expertise in product ideation and market analysis ensures your product meets user needs and aligns with your business strategy for long-term growth and full potential realization. Drive your product's success with strategic planning.",
-  },
-  {
-    id: 5,
-    title: "DevOps",
-    icons: [
-      "/skills/docker.svg",
-      "/skills/kubernetes.svg",
-      "/skills/aws.svg",
-      "/skills/jenkins.svg",
-      "/skills/terraform.svg",
-    ],
-    shortDescription: "I streamline development and operations processes.",
-    description:
-      "I streamline development and operations processes through effective DevOps practices. I implement continuous integration and deployment pipelines, manage cloud infrastructure, and use containerization to ensure efficient, reliable, and scalable software delivery. Improve your workflow with DevOps solutions.",
-  },
-  {
-    id: 6,
-    title: "Database Management",
-    icons: [
-      "/skills/mysql.svg",
-      "/skills/postgresql.svg",
-      "/skills/mongodb.svg",
-      "/skills/redis.svg",
-      "/skills/sqlite.svg",
-    ],
-    shortDescription: "I manage and optimize your database systems.",
-    description:
-      "I manage and optimize your database systems for performance, reliability, and scalability. With expertise in SQL and NoSQL databases, I design schemas, write complex queries, and implement best practices for data integrity and security. Ensure your data is managed effectively and efficiently.",
+      "I provide comprehensive administrative assistance including data entry, document preparation, meeting coordination, and office communication. With a focus on organization and accuracy, I help maintain workflow, support teams, and contribute to the overall efficiency of business operations.",
   },
 ];
 
