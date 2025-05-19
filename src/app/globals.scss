@@ -24,90 +24,83 @@
   --borderRadius: 0.5rem;
   --defaultRadius: 0.5rem;
 
-  // Surface colors (light)
-  --dialogColor10: rgba(255, 255, 255, 0.1);
-  --dialogColor20: rgba(255, 255, 255, 0.2);
-  --dialogColor30: rgba(255, 255, 255, 0.3);
-  --dialogColor40: rgba(255, 255, 255, 0.4);
-  --dialogColor50: rgba(255, 255, 255, 0.5);
-  --dialogColor60: rgba(255, 255, 255, 0.6);
-  --dialogColor70: rgba(255, 255, 255, 0.7);
-  --dialogColor80: rgba(255, 255, 255, 0.8);
-  --dialogColor90: rgba(255, 255, 255, 0.9);
-  --dialogColor100: rgba(255, 255, 255, 1);
-  --dialogColor: rgb(255, 255, 255);
+  /* Nude Brown Theme (Surface colors) */
+  --dialogColor10: rgba(235, 220, 210, 0.1);
+  --dialogColor20: rgba(235, 220, 210, 0.2);
+  --dialogColor30: rgba(235, 220, 210, 0.3);
+  --dialogColor40: rgba(235, 220, 210, 0.4);
+  --dialogColor50: rgba(235, 220, 210, 0.5);
+  --dialogColor60: rgba(235, 220, 210, 0.6);
+  --dialogColor70: rgba(235, 220, 210, 0.7);
+  --dialogColor80: rgba(235, 220, 210, 0.8);
+  --dialogColor90: rgba(235, 220, 210, 0.9);
+  --dialogColor100: rgba(235, 220, 210, 1);
+  --dialogColor: rgb(235, 220, 210);
 
-  // Background colors (light)
-  --bgColor10: rgba(248, 248, 248, 0.1);
-  --bgColor20: rgba(248, 248, 248, 0.2);
-  --bgColor30: rgba(248, 248, 248, 0.3);
-  --bgColor40: rgba(248, 248, 248, 0.4);
-  --bgColor50: rgba(248, 248, 248, 0.5);
-  --bgColor60: rgba(248, 248, 248, 0.6);
-  --bgColor70: rgba(248, 248, 248, 0.7);
-  --bgColor80: rgba(248, 248, 248, 0.8);
-  --bgColor90: rgba(248, 248, 248, 0.9);
-  --bgColor: rgba(248, 248, 248, 1);
+  /* Background colors */
+  --bgColor10: rgba(245, 236, 230, 0.1);
+  --bgColor20: rgba(245, 236, 230, 0.2);
+  --bgColor30: rgba(245, 236, 230, 0.3);
+  --bgColor40: rgba(245, 236, 230, 0.4);
+  --bgColor50: rgba(245, 236, 230, 0.5);
+  --bgColor60: rgba(245, 236, 230, 0.6);
+  --bgColor70: rgba(245, 236, 230, 0.7);
+  --bgColor80: rgba(245, 236, 230, 0.8);
+  --bgColor90: rgba(245, 236, 230, 0.9);
+  --bgColor: rgba(245, 236, 230, 1);
 
-  // Grayscale (adjusted for light theme)
-  --lightGrayColor: #f5f5f5;
-  --lighterGrayColor: #fafafa;
-  --borderColor: rgba(0, 0, 0, 0.1);
-  --darkGrayColor: rgb(100, 100, 100);
+  /* Text colors */
+  --textColor: rgba(61, 50, 41, 1);
+  --textColor10: rgba(61, 50, 41, 0.1);
+  --textColor20: rgba(61, 50, 41, 0.2);
+  --textColor30: rgba(61, 50, 41, 0.3);
+  --textColor40: rgba(61, 50, 41, 0.4);
+  --textColor50: rgba(61, 50, 41, 0.5);
+  --textColor60: rgba(61, 50, 41, 0.6);
+  --textColor70: rgba(61, 50, 41, 0.7);
+  --textColor80: rgba(61, 50, 41, 0.8);
+  --textColor90: rgba(61, 50, 41, 0.9);
+  --textColor100: rgba(61, 50, 41, 1);
 
-  // Text colors (dark for light theme)
-  --textColor10: rgba(18, 22, 27, 0.1);
-  --textColor20: rgba(18, 22, 27, 0.2);
-  --textColor30: rgba(18, 22, 27, 0.3);
-  --textColor40: rgba(18, 22, 27, 0.4);
-  --textColor50: rgba(18, 22, 27, 0.5);
-  --textColor60: rgba(18, 22, 27, 0.6);
-  --textColor70: rgba(18, 22, 27, 0.7);
-  --textColor80: rgba(18, 22, 27, 0.8);
-  --textColor90: rgba(18, 22, 27, 0.9);
-  --textColor100: rgba(18, 22, 27, 1);
-  --textColor: rgba(18, 22, 27, 1);
+  /* Secondary text (soft brown-gray) */
+  --textColorLight: rgba(120, 100, 90, 1);
+  --textColorLight10: rgba(120, 100, 90, 0.1);
+  --textColorLight20: rgba(120, 100, 90, 0.2);
+  --textColorLight30: rgba(120, 100, 90, 0.3);
+  --textColorLight40: rgba(120, 100, 90, 0.4);
+  --textColorLight50: rgba(120, 100, 90, 0.5);
+  --textColorLight60: rgba(120, 100, 90, 0.6);
+  --textColorLight70: rgba(120, 100, 90, 0.7);
+  --textColorLight80: rgba(120, 100, 90, 0.8);
+  --textColorLight90: rgba(120, 100, 90, 0.9);
+  --textColorLight100: rgba(120, 100, 90, 1);
 
-  // Secondary text colors
-  --textColorLight10: rgba(100, 100, 100, 0.1);
-  --textColorLight20: rgba(100, 100, 100, 0.2);
-  --textColorLight30: rgba(100, 100, 100, 0.3);
-  --textColorLight40: rgba(100, 100, 100, 0.4);
-  --textColorLight50: rgba(100, 100, 100, 0.5);
-  --textColorLight60: rgba(100, 100, 100, 0.6);
-  --textColorLight70: rgba(100, 100, 100, 0.7);
-  --textColorLight80: rgba(100, 100, 100, 0.8);
-  --textColorLight90: rgba(100, 100, 100, 0.9);
-  --textColorLight100: rgba(100, 100, 100, 1);
-  --textColorLight: rgba(100, 100, 100, 1);
+  /* Accent (can optionally be softened too) */
+  --primaryColor: rgba(193, 154, 107, 1); /* caramel brown */
+  --secondaryColor: rgba(173, 132, 95, 1); /* mocha */
 
-  // Accent colors (unchanged)
-  --linkColor: rgba(0, 113, 255, 1);
-  --primaryColor: rgba(0, 177, 113, 1);
-  --secondaryColor: rgba(0, 237, 138, 1);
-  --successColor: rgba(30, 180, 80, 1);
-  --errorColor: rgba(244, 67, 54, 1);
-  --warningColor: rgba(240, 156, 0, 1);
+  --linkColor: rgba(161, 105, 65, 1); /* earthy link */
+  --successColor: rgba(125, 175, 125, 1);
+  --errorColor: rgba(204, 80, 80, 1);
+  --warningColor: rgba(226, 155, 60, 1);
 
-  // Black/white (unchanged)
-  --blackColor: rgba(0, 0, 0, 1);
+  --blackColor: rgba(40, 30, 20, 1);
   --whiteColor: rgba(255, 255, 255, 1);
 
-  // Gradients (unchanged)
   --primaryGrad: linear-gradient(
     118.18deg,
     var(--primaryColor) 0.99%,
     var(--secondaryColor) 100%
   );
 
-  // Shadows (adjusted for light theme)
-  --boxShadow: 0px 4px 12px -6px rgba(0, 0, 0, 0.05),
-    0px -4px 12px -6px rgba(0, 0, 0, 0.05),
-    -4px 0px 12px -6px rgba(0, 0, 0, 0.05),
-    4px 0px 12px -6px rgba(0, 0, 0, 0.05);
+  --boxShadow: 0px 4px 12px -6px rgba(61, 50, 41, 0.05),
+    0px -4px 12px -6px rgba(61, 50, 41, 0.05),
+    -4px 0px 12px -6px rgba(61, 50, 41, 0.05),
+    4px 0px 12px -6px rgba(61, 50, 41, 0.05);
 
-  --navBarShadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+  --navBarShadow: 0 0 10px 0 rgba(61, 50, 41, 0.05);
 }
+
 
 * {
   box-sizing: border-box;
